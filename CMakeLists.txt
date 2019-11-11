@@ -41,6 +41,10 @@ target_link_libraries (Exposure ${SPINNAKER_LIB})
 add_executable(ExceptionHandling ExceptionHandling.cpp)
 target_link_libraries (ExceptionHandling ${SPINNAKER_LIB})
 
+add_executable(Trigger Trigger.cpp)
+target_link_libraries (Trigger ${SPINNAKER_LIB})
+
+# video
 add_executable(SaveToAvi SaveToAvi.cpp)
 target_link_libraries (SaveToAvi ${SPINNAKER_LIB} ${SPINVIDEO_LIB})
 
